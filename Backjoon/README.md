@@ -33,7 +33,7 @@ const [m, ...m_arr] = input.slice(n + 1);
 // * 만약 입력받는 값들을 모두 String에서 Number로 타입을 변형하려면 split() 뒤에 map(v => +v) 또는 map(Number)를 추가
 ```
 
-### **readline모듈**
+## **readline모듈**
 
 ```javascript
 const readline = require("readline");
