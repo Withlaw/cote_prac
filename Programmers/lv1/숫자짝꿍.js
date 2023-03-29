@@ -2,7 +2,8 @@ function solution(X, Y) {
   const obj = {};
   const result = [];
   for (char of X) {
-    obj[char] = obj[char] === undefined ? 1 : obj[char] + 1;
+    // obj[char] = obj[char] === undefined ? 1 : obj[char] + 1;
+    obj[char] = (obj[char] ?? 0) + 1;
   }
 
   for (char of Y) {
