@@ -3,4 +3,3 @@
 ### 오답노트
 
 - lv1 신고결과받기 : set, map으로 다시 풀어보기
-- new Array(n) <=> Array.from({length: n})
